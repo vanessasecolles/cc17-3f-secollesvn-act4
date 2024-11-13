@@ -44,6 +44,13 @@
             android:text="OK (15%)" />
     </RadioGroup>
 
+    <Switch
+        android:id="@+id/roundUpSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Round up tip" />
+
     <TextView
         android:id="@+id/tipResultTextView"
         android:layout_width="wrap_content"
